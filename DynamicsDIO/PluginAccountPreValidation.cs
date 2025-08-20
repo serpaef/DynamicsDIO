@@ -7,7 +7,7 @@ using Microsoft.Xrm.Sdk;
 
 namespace DynamicsDIO
 {
-    public class PluginAccountPreValidation
+    public class PluginAccountPreValidation : IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {
